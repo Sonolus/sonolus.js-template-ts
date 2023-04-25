@@ -1,0 +1,17 @@
+{
+  "name": "sonolus.js-template-ts",
+  "version": "1.0.0-beta.0",
+  "description": "Sonolus.js Template (TS)",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "sonolus-cli --dev",
+    "type-check": "tsc -p . --noEmit",
+    "build": "sonolus-cli --build"
+  },
+  "devDependencies": {
+    "sonolus-core": "~7.0.0-beta.0",
+    "sonolus.js": "~9.0.0-beta.0",
+    "typescript": "~5.0.4"
+  }
+}
