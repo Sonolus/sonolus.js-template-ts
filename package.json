@@ -10,8 +10,8 @@
     "build": "sonolus-cli --build"
   },
   "devDependencies": {
-    "sonolus-core": "~7.0.0-beta.0",
-    "sonolus.js": "~9.0.0-beta.0",
-    "typescript": "~5.0.4"
+    "sonolus-core": "~7.0.0",
+    "sonolus.js": "~9.0.0",
+    "typescript": "~5.1.3"
   }
 }
