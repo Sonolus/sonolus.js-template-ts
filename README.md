@@ -27,7 +27,11 @@ npm i
 Run in project directory:
 
 ```
-npm run dev
+npm run dev:play
+```
+
+```
+npm run dev:tutorial
 ```
 
 A dev server will be up and running. You can connect to it using Sonolus app and play test the level.
