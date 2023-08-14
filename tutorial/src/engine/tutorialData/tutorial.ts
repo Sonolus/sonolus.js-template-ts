@@ -5,9 +5,9 @@ import { exampleFrozen } from './segments/example/frozen.js'
 import { exampleHit } from './segments/example/hit.js'
 import { exampleIntro } from './segments/example/intro.js'
 
-const components = [initialization]
+const components = [initialization] as const
 
-const segments = [exampleIntro, exampleFall, exampleFrozen, exampleHit]
+const segments = [exampleIntro, exampleFall, exampleFrozen, exampleHit] as const
 
 let current = tutorialMemory(Number)
 let next = tutorialMemory(Number)
@@ -107,7 +107,8 @@ const updateComponent = (index: number) => {
     component.update()
 }
 
-const forEach = (items: unknown[], callback: (index: number) => void) => items.map(() => callback)
+const forEach = (items: readonly unknown[], callback: (index: number) => void) =>
+    items.map(() => callback)
 
 export const tutorial = {
     preprocess: [preprocess, ...forEach(components, preprocessComponent)],
