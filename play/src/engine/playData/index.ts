@@ -4,12 +4,12 @@ import { effect } from './effect.js'
 import { particle } from './particle.js'
 import { skin } from './skin.js'
 
-export const data = {
+export const playData = {
     skin,
     effect,
     particle,
     buckets,
     archetypes,
 
-    globalResolver: (name: string) => eval(name),
+    globalResolver: (name: string) => eval(name) as unknown,
 }

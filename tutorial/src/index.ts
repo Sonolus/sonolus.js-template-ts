@@ -1,9 +1,7 @@
-import 'sonolus.js'
+import 'sonolus.js/tutorial'
 
 import { engine } from './engine/index.js'
-import { level } from './level/index.js'
 
 export default {
     engine,
-    level,
 }
