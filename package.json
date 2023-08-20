@@ -12,7 +12,7 @@
   },
   "devDependencies": {
     "sonolus-core": "~7.2.0",
-    "sonolus.js": "~9.1.0",
+    "sonolus.js": "~9.1.1",
     "typescript": "~5.1.6"
   }
 }
