@@ -5,10 +5,10 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "dev:play": "sonolus-cli --dev ./play/sonolus-cli.config.js",
-    "dev:tutorial": "sonolus-cli --dev ./tutorial/sonolus-cli.config.js",
+    "dev:play": "sonolus-cli --dev ./play",
+    "dev:tutorial": "sonolus-cli --dev ./tutorial",
     "type-check": "tsc -p ./shared --noEmit && tsc -p ./play --noEmit && tsc -p ./tutorial --noEmit",
-    "build": "sonolus-cli --build ./play/sonolus-cli.config.js && sonolus-cli --build ./tutorial/sonolus-cli.config.js"
+    "build": "sonolus-cli --build ./play && sonolus-cli --build ./tutorial"
   },
   "devDependencies": {
     "sonolus-core": "~7.3.0",
