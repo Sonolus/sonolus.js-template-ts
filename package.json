@@ -1,6 +1,6 @@
 {
   "name": "sonolus.js-template-ts",
-  "version": "1.3.2",
+  "version": "1.4.0",
   "description": "Sonolus.js Template (TS)",
   "private": true,
   "type": "module",
