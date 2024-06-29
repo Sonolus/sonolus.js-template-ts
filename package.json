@@ -1,6 +1,6 @@
 {
   "name": "sonolus.js-template-ts",
-  "version": "1.4.1",
+  "version": "1.4.2",
   "description": "Sonolus.js Template (TS)",
   "private": true,
   "type": "module",
@@ -13,8 +13,8 @@
     "build": "sonolus-cli --build ./play && sonolus-cli --build ./watch && sonolus-cli --build ./preview && sonolus-cli --build ./tutorial"
   },
   "devDependencies": {
-    "@sonolus/core": "~7.6.0",
-    "@sonolus/sonolus.js": "~9.4.2",
+    "@sonolus/core": "~7.7.0",
+    "@sonolus/sonolus.js": "~9.4.3",
     "typescript": "~5.4.5"
   }
 }
