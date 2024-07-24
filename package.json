@@ -13,8 +13,8 @@
     "build": "sonolus-cli --build ./play && sonolus-cli --build ./watch && sonolus-cli --build ./preview && sonolus-cli --build ./tutorial"
   },
   "devDependencies": {
-    "@sonolus/core": "~7.7.0",
-    "@sonolus/sonolus.js": "~9.4.3",
-    "typescript": "~5.4.5"
+    "@sonolus/core": "~7.8.0",
+    "@sonolus/sonolus.js": "~9.4.4",
+    "typescript": "~5.5.4"
   }
 }
