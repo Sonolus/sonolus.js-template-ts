@@ -10,10 +10,21 @@ export class Initialization extends Archetype {
             background: true,
         })
 
-        ui.progress.set({
+        ui.progress.bar.set({
             anchor: screen.rect.lb.add(new Vec(0.05, 0.05)),
             pivot: { x: 0, y: 0 },
             size: { x: screen.rect.w - 0.1, y: 0.15 * ui.configuration.progress.scale },
+            rotation: 0,
+            alpha: ui.configuration.progress.alpha,
+            horizontalAlign: HorizontalAlign.Center,
+            background: true,
+        })
+        ui.progress.graph.set({
+            anchor: screen.rect.lb
+                .add(new Vec(0.05, 0.1))
+                .add(new Vec(0, 0.15 * ui.configuration.progress.scale)),
+            pivot: { x: 0, y: 0 },
+            size: { x: screen.rect.w - 0.1, y: 0.3 * ui.configuration.progress.scale },
             rotation: 0,
             alpha: ui.configuration.progress.alpha,
             horizontalAlign: HorizontalAlign.Center,
