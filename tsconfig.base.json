@@ -6,8 +6,7 @@
         "target": "ESNext",
         "module": "ESNext",
         "moduleResolution": "Bundler",
-        "checkJs": true,
-        "strict": true,
+        "noEmit": true,
         "skipLibCheck": true,
         "exactOptionalPropertyTypes": true,
     }

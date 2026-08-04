@@ -2,11 +2,11 @@
 
 ## Prerequisites
 
--   [Node.js](https://nodejs.org)
+- [Node.js](https://nodejs.org)
 
 ## Recommended Setup
 
--   [Visual Studio Code](https://code.visualstudio.com)
+- [Visual Studio Code](https://code.visualstudio.com)
 
 ## Get Started
 
